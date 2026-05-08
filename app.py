@@ -11,7 +11,7 @@ st.set_page_config(page_title="URL Scanner", page_icon="🛡️")
 st.title("🛡️ Phishing URL Analyzer")
 st.write("Enter a URL below to check if it's malicious.")
 
-target_url = st.text_input("Paste URL here (e.g., http://example.com):")
+target_url = st.text_input("Paste URL here ")
 
 if st.button("Analyze"):
     if target_url:
